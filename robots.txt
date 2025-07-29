@@ -1,0 +1,5 @@
+# robots.txt for zirveharita website
+User-agent: *
+Allow: /
+
+Sitemap: https://zirveharita.com/sitemap.xml

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="300" height="150">
+  <!-- ZH logo (black version with white text) -->
+  <rect width="300" height="150" fill="#000000"/>
+  
+  <style>
+    .text { fill: #ffffff; font-family: Arial, sans-serif; }
+    .main-text { font-size: 60px; font-weight: bold; }
+    .sub-text { font-size: 20px; letter-spacing: 5px; }
+    .bottom-text { font-size: 16px; letter-spacing: 3px; }
+  </style>
+  
+  <!-- Main ZH text -->
+  <text x="50" y="60" class="text main-text">ZH</text>
+  <text x="50" y="100" class="text sub-text">ZIRVE HARITA</text>
+  <text x="120" y="130" class="text bottom-text">DIDIM</text>
+</svg>

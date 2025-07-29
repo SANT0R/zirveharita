@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <rect width="1000" height="1500" fill="#0a4c81" rx="50" ry="50"/>
+  <circle cx="500" cy="500" r="450" fill="#0a4c81" stroke="#ffffff" stroke-width="5"/>
+  
+  <!-- Title -->
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="white" text-anchor="middle">ZIRVE HARITA</text>
+  <text x="500" y="300" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">MÜHENDİSLİK</text>
+  
+  <!-- Services Title -->
+  <rect x="90" y="380" width="350" height="60" rx="30" ry="30" fill="white"/>
+  <text x="265" y="425" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a4c81" text-anchor="middle">HİZMETLERİMİZ</text>
+  
+  <!-- Services List -->
+  <g fill="white" font-family="Arial, sans-serif" font-size="24">
+    <!-- Checkmarks -->
+    <circle cx="120" cy="480" r="15" fill="white"/>
+    <text x="120" y="488" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="530" r="15" fill="white"/>
+    <text x="120" y="538" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="580" r="15" fill="white"/>
+    <text x="120" y="588" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="630" r="15" fill="white"/>
+    <text x="120" y="638" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="680" r="15" fill="white"/>
+    <text x="120" y="688" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="730" r="15" fill="white"/>
+    <text x="120" y="738" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="780" r="15" fill="white"/>
+    <text x="120" y="788" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="830" r="15" fill="white"/>
+    <text x="120" y="838" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <circle cx="120" cy="880" r="15" fill="white"/>
+    <text x="120" y="888" font-size="20" fill="#0a4c81" text-anchor="middle">✓</text>
+    
+    <!-- Service Names -->
+    <text x="150" y="480" text-anchor="start">İFRAZ (AYIRMA)</text>
+    <text x="150" y="530" text-anchor="start">YOLA TERK</text>
+    <text x="150" y="580" text-anchor="start">İMAR UYGULAMALARI</text>
+    <text x="150" y="630" text-anchor="start">KAMULAŞTIRMA</text>
+    <text x="150" y="680" text-anchor="start">KAZI - DOLGU</text>
+    <text x="150" y="730" text-anchor="start">PLANKOTE</text>
+    <text x="150" y="780" text-anchor="start">TUS</text>
+    <text x="150" y="830" text-anchor="start">BİNA APLİKASYONU</text>
+    <text x="150" y="880" text-anchor="start">SINIR TESPİTİ</text>
+  </g>
+  
+  <!-- Logo -->
+  <g transform="translate(800, 230) scale(0.5)">
+    <rect width="200" height="200" fill="white" rx="10" ry="10"/>
+    <text x="100" y="120" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#0a4c81" text-anchor="middle">ZH</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="20" fill="#0a4c81" text-anchor="middle">ZIRVE HARITA</text>
+    <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" fill="#0a4c81" text-anchor="middle">DİDİM</text>
+  </g>
+  
+  <!-- Compass -->
+  <g transform="translate(780, 450)">
+    <circle cx="0" cy="0" r="80" fill="white" fill-opacity="0.9"/>
+    <path d="M0,-70 L15,0 L0,15 L-15,0 Z" fill="#0a4c81"/>
+    <path d="M0,70 L-15,0 L0,-15 L15,0 Z" fill="#0a4c81"/>
+    <circle cx="0" cy="0" r="10" fill="#0a4c81"/>
+    <line x1="0" y1="-80" x2="0" y2="-60" stroke="#0a4c81" stroke-width="2"/>
+    <line x1="0" y1="60" x2="0" y2="80" stroke="#0a4c81" stroke-width="2"/>
+    <line x1="-80" y1="0" x2="-60" y2="0" stroke="#0a4c81" stroke-width="2"/>
+    <line x1="60" y1="0" x2="80" y2="0" stroke="#0a4c81" stroke-width="2"/>
+  </g>
+  
+  <!-- Social Media -->
+  <g transform="translate(100, 1100)">
+    <circle cx="0" cy="0" r="30" fill="white"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="30" fill="#0a4c81" text-anchor="middle">@</text>
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="start">@harita.zirve</text>
+  </g>
+  
+  <!-- Phone -->
+  <g transform="translate(100, 1180)">
+    <circle cx="0" cy="0" r="30" fill="white"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="30" fill="#0a4c81" text-anchor="middle">☎</text>
+    <text x="50" y="10" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="start">0541 659 88 23</text>
+  </g>
+  
+  <!-- Address -->
+  <g transform="translate(100, 1260)">
+    <circle cx="0" cy="0" r="30" fill="white"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="30" fill="#0a4c81" text-anchor="middle">⌖</text>
+    <text x="50" y="0" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start">Yeni Mah. İnönü Bul.</text>
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start">Didim Belediyesi karşısı</text>
+  </g>
+  
+  <text x="500" y="1350" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">GÖZÜM APT. DİDİM/AYDIN</text>
+  
+  <!-- Engineers -->
+  <g transform="translate(700, 1150)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="start">MÜHENDİSLERİMİZ</text>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start">Caner ALTIN</text>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start">Burcu Aktepe ALTIN</text>
+  </g>
+  
+  <!-- Surveyor Illustration -->
+  <g transform="translate(550, 1200)">
+    <path d="M0,0 L-20,50 L20,50 Z" fill="none" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="white" stroke-width="2"/>
+    <circle cx="0" cy="-40" r="10" fill="none" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="-15" y2="-15" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="15" y2="-15" stroke="white" stroke-width="2"/>
+  </g>
+</svg>
