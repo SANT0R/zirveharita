@@ -12,6 +12,15 @@ const translations = {
         'hero_button_services': 'HİZMETLERİMİZ',
         'stat_satisfaction': 'Müşteri Memnuniyeti',
         'stat_support': 'Destek Hattı',
+        'what_we_do_title': 'Sizin için neler yapabiliriz?',
+        'what_we_do_intro': 'Bize ulaştığınızda ya da ofisimize geldiğinizde, önce sizi dinleriz. Arsanızın, parselinizin veya projenizin hangi aşamada olduğunu öğrenir, neye ihtiyaç duyduğunuzu birlikte netleştiririz.',
+        'what_we_do_technical_title': 'Teknik olarak:',
+        'what_we_do_technical_desc': 'Tapu, ada/parsel bilgileri, imar durumu, sınır tespiti, ölçüm, aplikasyon gibi tüm harita mühendisliği ihtiyaçlarınızı analiz ederiz.',
+        'what_we_do_financial_title': 'Maddi olarak:',
+        'what_we_do_financial_desc': 'İşin yaklaşık maliyetini, resmi harçları ve hizmet bedellerini şeffaf şekilde ortaya koyar, önceden bilgilendiririz.',
+        'what_we_do_solution_title': 'Çözümsel olarak:',
+        'what_we_do_solution_desc': 'İzlenecek yolu adım adım açıklarız, resmi süreçleri sizin adınıza takip ederiz.',
+        'what_we_do_conclusion': 'Net bilgi, net yol, net sonuç.',
         'services_title': 'Hizmetlerimiz',
         'service_application_title': 'Aplikasyon',
         'service_application_desc': 'Taşınmaza ait mülkiyet, irtifak hakkı ve yolların sınırlarının, tescilli tapu planındaki bilgi ve belgelerine uygun olarak zeminde işaretlenmesi işlemidir.',
@@ -41,14 +50,25 @@ const translations = {
         'service_expropriation_desc': 'Kamu yararı için şahısa ait taşınmazların projeye göre yol, okul, hastane ve diğer kamunun ortak kullanım ihtiyacına hizmet verme işlemidir.',
         'service_consultancy_title': 'Danışmanlık',
         'service_consultancy_desc': 'Taşınmazlarınızla ilgili her türlü isteğinizde ve hassas ölçümler için destek alabilirsiniz.',
-        'references_title': 'Referanslarımız',
         'about_us_title': 'Biz Kimiz',
+        'about_us_desc': 'Deneyimli ve yetenekli insan kaynakları ve ileri teknoloji ekipmanlar ile tüm projelerimizi; hızlı, estetik, doğru ve yüksek kalite standartlarında gerçekleştiriyoruz. Firmamız tüm projelerimizin gerçekleştirilmesinde önemli rol oynayarak, hizmet verdiği kurum ve kuruluşların takdirleriyle karşılanıp tercih edilmenin gururunu taşımaktadır.Zirve Harita İmar Planı Uygulaması (Şuyulandırma)Fabrika – Site – Kooperatif Yerleşim Haritaları ProjelendirmesiYol Projesi gibi birçok projeye imza atmaktadır.Hedefimiz, yeni teknolojileri bünyesine katarak, projelerimizi doğru, hızlı ve en ekonomik şekilde kalite standartlarınında üstünde hizmet verebilmenin sürekliliğini sağlayarak daha büyük projelere imza atmak olacaktır.',
+        'services_video_title': 'Tanıtım Videosu',
+        'mission_title': 'Misyonumuz',
+        'mission_desc': 'Zirve Harita Mühendislik olarak misyonumuz; harita mühendisliği alanında teknik doğruluğu, güvenilirliği ve şeffaflığı esas alarak, müşterilerimize mevzuata uygun, hızlı ve sürdürülebilir çözümler sunmaktır. İmar uygulamaları, arazi yönetimi, inşaat öncesi zemin analizleri ve mühendislik hizmetlerinde, doğru veriye dayalı kararların alınmasına katkı sağlamak ve bölge halkına kaliteli hizmet sunmak temel önceliğimizdir. Didim ve çevresinde, harita mühendisliği alanında güvenilir bir çözüm ortağı olmak için çalışıyoruz.',
+        'vision_title': 'Vizyonumuz',
+        'vision_desc': 'Zirve Harita Mühendislik olarak vizyonumuz; harita mühendisliği alanında gelişen teknolojileri yakından takip ederek, sunduğumuz hizmetlerin kalitesini sürekli artırmak ve sektörde örnek gösterilen, öncü bir mühendislik firması olmaktır. Amacımız; Didim ve çevresinde arazi geliştirme, imar uygulamaları ve mühendislik projelerinde güvenilir bir başvuru noktası haline gelmek, aynı zamanda kamu ve özel sektörün ihtiyaç duyduğu teknik çözümleri zamanında ve doğru şekilde sunarak bölgesel kalkınmaya katkı sağlamaktır.',
         'team_title': 'Ekibimiz',
+        'team_member1_position': 'Harita Mühendisi',
+        'team_member1_university': 'Kocaeli Üniversitesi / 2021',
+        'team_member2_position': 'Harita Mühendisi',
+        'team_member2_university': 'Kocaeli Üniversitesi / 2022',
         'contact_title': 'İletişim',
         'contact_subtitle': 'Projeleriniz için bizimle iletişime geçin. Size en uygun çözümü birlikte bulalım.',
         'contact_phone_title': 'Telefon',
         'contact_phone_desc': 'Hemen arayın, ücretsiz danışmanlık alın',
         'contact_address_title': 'Adres',
+        'contact_address_line1': 'Yeni mah. İnönü bulvarı, Gözüm apartmanı no:5 (Didim Belediyesi Karşısı)',
+        'contact_address_line2': '09270 Didim/Aydın',
         'contact_hours_title': 'Çalışma Saatleri',
         'contact_hours_weekdays': 'Pazartesi - Pazar: 08:00 - 18:30',
         'contact_email_title': 'E-posta',
@@ -60,7 +80,7 @@ const translations = {
         'footer_contact': 'İletişim',
         'footer_hours_title': 'Çalışma Saatleri',
         'footer_hours': 'Pazartesi - Pazar: 08:00 - 18:30',
-        'footer_copyright': '© 2023 Zirve Harita. Tüm hakları saklıdır.'
+        'footer_copyright': '© 2024 Zirve Harita. Tüm hakları saklıdır.'
     },
     'en': {
         'nav_home': 'Home',
@@ -74,6 +94,15 @@ const translations = {
         'hero_button_services': 'OUR SERVICES',
         'stat_satisfaction': 'Customer Satisfaction',
         'stat_support': 'Support Line',
+        'what_we_do_title': 'What can we do for you?',
+        'what_we_do_intro': 'When you contact us or come to our office, we listen to you first. We learn what stage your land, parcel or project is at and clarify together what you need.',
+        'what_we_do_technical_title': 'Technically:',
+        'what_we_do_technical_desc': 'We analyze all your surveying engineering needs such as title deed, block/parcel information, zoning status, boundary detection, measurement, application.',
+        'what_we_do_financial_title': 'Financially:',
+        'what_we_do_financial_desc': 'We transparently present the approximate cost of the work, official fees and service charges, and inform you in advance.',
+        'what_we_do_solution_title': 'Solution-wise:',
+        'what_we_do_solution_desc': 'We explain the path to be followed step by step and follow the official processes on your behalf.',
+        'what_we_do_conclusion': 'Clear information, clear path, clear result.',
         'services_title': 'Our Services',
         'service_application_title': 'Application',
         'service_application_desc': 'It is the process of marking the boundaries of property, servitude rights and roads on the ground in accordance with the information and documents in the registered title deed plan.',
@@ -103,22 +132,24 @@ const translations = {
         'service_expropriation_desc': 'It is the process of serving the public interest by using private properties for roads, schools, hospitals and other common public use needs according to the project.',
         'service_consultancy_title': 'Consultancy',
         'service_consultancy_desc': 'You can get support for all your requests regarding your real estate and for precise measurements.',
-        'references_title': 'References',
         'about_us_title': 'Who We Are',
         'about_us_desc': 'We carry out all our projects with experienced and talented human resources and advanced technology equipment; fast, aesthetic, accurate and at high quality standards. Our company plays an important role in the realization of all our projects and is proud of being appreciated and preferred by the institutions and organizations it serves. Zirve Harita has undertaken many projects such as Zoning Plan Application (Şuyulandırma), Factory - Site - Cooperative Settlement Maps Projecting, Road Project. Our goal is to undertake larger projects by incorporating new technologies, providing our projects accurately, quickly and in the most economical way, and ensuring the continuity of service above quality standards.',
+        'services_video_title': 'Promotional Video',
+        'mission_title': 'Our Mission',
+        'mission_desc': 'As Zirve Harita Mühendislik, our mission is to provide our customers with fast, sustainable and compliant solutions based on technical accuracy, reliability and transparency in the field of survey engineering. Our main priority is to contribute to making decisions based on accurate data in zoning applications, land management, pre-construction ground analysis and engineering services and to provide quality service to the local people. We are working to be a reliable solution partner in the field of survey engineering in Didim and its surroundings.',
+        'vision_title': 'Our Vision',
+        'vision_desc': 'As Zirve Harita Mühendislik, our vision is to continuously improve the quality of our services by closely following the developing technologies in the field of survey engineering and to become a leading and exemplary engineering company in the sector. Our goal is to become a reliable reference point for land development, zoning applications and engineering projects in Didim and its surroundings, and at the same time to contribute to regional development by providing the technical solutions needed by the public and private sectors in a timely and accurate manner.',
         'team_title': 'Our Team',
         'team_member1_position': 'Surveying Engineer',
         'team_member1_university': 'Kocaeli University / 2021',
-        'team_member1_bio': 'Our team leader who specializes in projects in the Didim region and offers technical solutions. As a Surveying Engineer, he manages all surveying services professionally.',
         'team_member2_position': 'Surveying Engineer',
         'team_member2_university': 'Kocaeli University / 2022',
-        'team_member2_bio': 'Our teammate who manages customer relations and project management processes smoothly. She specializes in administrative affairs and customer communication and ensures the coordination of all projects.',
         'contact_title': 'Contact',
         'contact_subtitle': "Let's find the most suitable solution together.",
         'contact_phone_title': 'Phone',
         'contact_phone_desc': 'Call now, get free consultation',
         'contact_address_title': 'Address',
-        'contact_address_line1': 'Across from Didim municipality, Gözüm, Yeni mahalle, İnönü boulevard, Gözüm apartment no:5',
+        'contact_address_line1': 'Yeni mah. İnönü boulevard, Gözüm apartment no:5 (Across Didim Municipality)',
         'contact_address_line2': '09270 Didim/Aydın',
         'contact_hours_title': 'Working Hours',
         'contact_hours_weekdays': 'Monday - Sunday: 08:00 - 18:30',
@@ -131,65 +162,51 @@ const translations = {
         'footer_contact': 'Contact',
         'footer_hours_title': 'Working Hours',
         'footer_hours': 'Monday - Sunday: 08:00 - 18:30',
-        'footer_copyright': '© 2023 Zirve Harita. All rights reserved.'
+        'footer_copyright': '© 2024 Zirve Harita. All rights reserved.'
     }
 };
 
-// Default language
-let currentLanguage = 'tr';
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Default language
+    let currentLanguage = 'tr';
 
-// Function to change the language
-function changeLanguage(lang) {
-    currentLanguage = lang;
-    updateContent();
-    // Save language preference to localStorage
-    localStorage.setItem('language', lang);
-}
+    // Function to change the language
+    function changeLanguage(lang) {
+        currentLanguage = lang;
+        updateContent();
+        // Save language preference to localStorage
+        localStorage.setItem('language', lang);
+    }
 
-// Function to update content based on selected language
-function updateContent() {
-    const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        if (translations[currentLanguage] && translations[currentLanguage][key]) {
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                element.placeholder = translations[currentLanguage][key];
-            } else {
-                element.textContent = translations[currentLanguage][key];
+    // Function to update content based on selected language
+    function updateContent() {
+        const elements = document.querySelectorAll('[data-i18n]');
+        elements.forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                element.innerHTML = translations[currentLanguage][key];
             }
-        }
-    });
-}
+        });
+    }
 
-// Initialize language from localStorage or browser preference
-function initializeLanguage() {
-    const savedLanguage = localStorage.getItem('language');
-    if (savedLanguage && (savedLanguage === 'tr' || savedLanguage === 'en')) {
-        currentLanguage = savedLanguage;
-    } else {
-        // Check browser language
-        const browserLang = navigator.language || navigator.userLanguage;
-        if (browserLang.startsWith('tr')) {
-            currentLanguage = 'tr';
+    // Initialize language from localStorage or browser preference
+    function initializeLanguage() {
+        const savedLanguage = localStorage.getItem('language');
+        if (savedLanguage && (savedLanguage === 'tr' || savedLanguage === 'en')) {
+            currentLanguage = savedLanguage;
         } else {
-            currentLanguage = 'en';
+            const browserLang = navigator.language || navigator.userLanguage;
+            currentLanguage = browserLang.startsWith('en') ? 'en' : 'tr';
         }
+        
+        document.querySelectorAll('.language-switcher .lang-option').forEach(option => {
+            option.classList.toggle('active', option.getAttribute('data-lang') === currentLanguage);
+        });
+        
+        updateContent();
     }
     
-    // Update the language switcher
-    document.querySelectorAll('.language-switcher .lang-option').forEach(option => {
-        if (option.getAttribute('data-lang') === currentLanguage) {
-            option.classList.add('active');
-        } else {
-            option.classList.remove('active');
-        }
-    });
-    
-    updateContent();
-}
-
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
     // Initialize language
     initializeLanguage();
     
@@ -198,11 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
         option.addEventListener('click', function() {
             const lang = this.getAttribute('data-lang');
             changeLanguage(lang);
-            
-            // Update active class
-            document.querySelectorAll('.language-switcher .lang-option').forEach(opt => {
-                opt.classList.remove('active');
-            });
+            document.querySelectorAll('.language-switcher .lang-option').forEach(opt => opt.classList.remove('active'));
             this.classList.add('active');
         });
     });
@@ -211,38 +224,57 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
-            
             const targetId = this.getAttribute('href');
             const targetElement = document.querySelector(targetId);
-            
             if (targetElement) {
-                // Get the header height to offset the scroll position
                 const headerHeight = document.querySelector('.header').offsetHeight;
-                
-                // Calculate the target position with offset
                 const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-                
-                // Smooth scroll to the target
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
+                window.scrollTo({ top: targetPosition, behavior: 'smooth' });
             }
         });
     });
     
     // Header scroll effect
     const header = document.querySelector('.header');
-    
-    // Apply initial styles
-    header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.3)';
-    header.style.background = '#000';
-    
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
+        header.classList.toggle('scrolled', window.scrollY > 50);
     });
+
+    // Stats Counter Animation
+    const statsSection = document.querySelector('.stats');
+    const statNumbers = document.querySelectorAll('.stat-number');
+    let hasAnimated = false;
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !hasAnimated) {
+                hasAnimated = true;
+                statNumbers.forEach(counter => {
+                    const targetText = counter.textContent;
+                    if (targetText.includes('/')) return; // "24/7" gibi metinleri atla
+                    
+                    const target = +targetText.replace(/\D/g, ''); // Sadece rakamları al
+                    counter.innerText = '0';
+
+                    const updateCounter = () => {
+                        const c = +counter.innerText;
+                        const increment = target / 200; // Animasyon hızı
+
+                        if (c < target) {
+                            counter.innerText = Math.ceil(c + increment);
+                            setTimeout(updateCounter, 1);
+                        } else {
+                            counter.innerText = targetText;
+                        }
+                    };
+                    updateCounter();
+                });
+                observer.unobserve(statsSection);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    if(statsSection) {
+        observer.observe(statsSection);
+    }
 });

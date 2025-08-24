@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zirve Harita - Didim'in Güvenilir Harita Mühendisliği</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zirve Harita - Didim'in Güvenilir Harita Mühendisliği</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="#" class="logo"><img src="images/logo-zh-white.svg" alt="Zirve Harita Logo" height="40"></a>
-                <div class="header-right">
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/zirveharita" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/zirveharita" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/zirveharita" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <nav class="main-nav">
-                        <ul class="nav-links">
-                            <li><a href="#home" data-i18n="nav_home">Ana Sayfa</a></li>
-                            <li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
-                            <li><a href="#services" data-i18n="nav_services">Hizmetlerimiz</a></li>
-                            <li><a href="#team" data-i18n="nav_team">Ekibimiz</a></li>
-                            <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
-                            <li class="language-switcher">
-                                <div class="lang-option" data-lang="tr">TR</div>
-                                <div class="lang-option" data-lang="en">EN</div>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
+<!-- Header Section -->
+<header class="header">
+<div class="container">
+<div class="header-content">
+<a href="#home" class="logo"><img src="images/logo-zh-white.svg" alt="Zirve Harita Logo"></a>
+<div class="header-right">
+<nav class="main-nav">
+<ul>
+<li><a href="#home" data-i18n="nav_home">Ana Sayfa</a></li>
+<li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
+<li><a href="#services" data-i18n="nav_services">Hizmetlerimiz</a></li>
+<li><a href="#team" data-i18n="nav_team">Ekibimiz</a></li>
+<li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+</ul>
+</nav>
+<div class="language-switcher">
+<span class="lang-option active" data-lang="tr">TR</span>
+<span class="lang-option" data-lang="en">EN</span>
+</div>
+<div class="social-icons">
+<a href="https://www.facebook.com/zirveharita" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="https://www.instagram.com/zirveharita" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/company/zirveharita" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+</div>
+</header>
+code
+Code
+<main>
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <h1 data-i18n="hero_title">Didim'in Güvenilir Harita Mühendisliği</h1>
                 <p data-i18n="hero_subtitle">Arsa, parsel ve proje ihtiyaçlarınızda yanınızdayız. Teknik uzmanlık, şeffaf hizmet ve güvenilir çözümler.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn primary" data-i18n="hero_button">İLETİŞİME GEÇİN</a>
+                    <a href="#contact" class="btn" data-i18n="hero_button">İLETİŞİME GEÇİN</a>
                     <a href="#services" class="btn secondary" data-i18n="hero_button_services">HİZMETLERİMİZ</a>
                 </div>
             </div>
@@ -64,6 +66,33 @@
                     <div class="stat-label" data-i18n="stat_support">Destek Hattı</div>
                 </div>
             </div>
+        </div>
+    </section>
+    
+    <section id="what-we-do" class="what-we-do">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="what_we_do_title">Sizin için neler yapabiliriz?</h2>
+                <p data-i18n="what_we_do_intro">Bize ulaştığınızda ya da ofisimize geldiğinizde, önce sizi dinleriz. Arsanızın, parselinizin veya projenizin hangi aşamada olduğunu öğrenir, neye ihtiyaç duyduğunuzu birlikte netleştiririz.</p>
+            </div>
+            <div class="what-we-do-grid">
+                <div class="what-we-do-item">
+                    <div class="item-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3 data-i18n="what_we_do_technical_title">Teknik olarak:</h3>
+                    <p data-i18n="what_we_do_technical_desc">Tapu, ada/parsel bilgileri, imar durumu, sınır tespiti, ölçüm, aplikasyon gibi tüm harita mühendisliği ihtiyaçlarınızı analiz ederiz.</p>
+                </div>
+                <div class="what-we-do-item">
+                    <div class="item-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h3 data-i18n="what_we_do_financial_title">Maddi olarak:</h3>
+                    <p data-i18n="what_we_do_financial_desc">İşin yaklaşık maliyetini, resmi harçları ve hizmet bedellerini şeffaf şekilde ortaya koyar, önceden bilgilendiririz.</p>
+                </div>
+                <div class="what-we-do-item">
+                    <div class="item-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 data-i18n="what_we_do_solution_title">Çözümsel olarak:</h3>
+                    <p data-i18n="what_we_do_solution_desc">İzlenecek yolu adım adım açıklarız, resmi süreçleri sizin adınıza takip ederiz.</p>
+                </div>
+            </div>
+            <p data-i18n="what_we_do_conclusion" class="what-we-do-conclusion">Net bilgi, net yol, net sonuç.</p>
         </div>
     </section>
 
@@ -133,32 +162,6 @@
         </div>
     </section>
 
-    <section id="references" class="references">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="references_title">Referanslarımız</h2>
-            </div>
-            <div class="references-grid">
-                <div class="reference-card">
-                    <h3>Green Park Otel</h3>
-                    <p>Telesiyej, Temel Direk, Halat Aks Aplikasyonu - 2004</p>
-                </div>
-                <div class="reference-card">
-                    <h3>Bora İnşaat San. Tic. Aş.</h3>
-                    <p>Aplikasyon ve Yerleşim - 2010</p>
-                </div>
-                <div class="reference-card">
-                    <h3>Mat Çevre Düz. Proje ve İnş.</h3>
-                    <p>Yol Proj.,Plankote,Yerleşim Aplikas. - 2010</p>
-                </div>
-                <div class="reference-card">
-                    <h3>Başiskele Belediyesi</h3>
-                    <p>Kadastro Güncellenmesi - 2010</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="about" class="about-us">
         <div class="container">
             <div class="section-header">
@@ -167,8 +170,36 @@
             <div class="about-us-content">
                 <p data-i18n="about_us_desc">Deneyimli ve yetenekli insan kaynakları ve ileri teknoloji ekipmanlar ile tüm projelerimizi; hızlı, estetik, doğru ve yüksek kalite standartlarında gerçekleştiriyoruz. Firmamız tüm projelerimizin gerçekleştirilmesinde önemli rol oynayarak, hizmet verdiği kurum ve kuruluşların takdirleriyle karşılanıp tercih edilmenin gururunu taşımaktadır.Zirve Harita İmar Planı Uygulaması (Şuyulandırma)Fabrika – Site – Kooperatif Yerleşim Haritaları ProjelendirmesiYol Projesi gibi birçok projeye imza atmaktadır.Hedefimiz, yeni teknolojileri bünyesine katarak, projelerimizi doğru, hızlı ve en ekonomik şekilde kalite standartlarınında üstünde hizmet verebilmenin sürekliliğini sağlayarak daha büyük projelere imza atmak olacaktır.</p>
             </div>
+                        
+            <div class="video-container">
+                <h3 data-i18n="services_video_title">Tanıtım Videosu</h3>
+                <div class="responsive-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sExIhQE3kLU?si=-RV9N6EWEWxbFj5w" title="Zirve Harita Mühendislik Tanıtım Videosu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section id="mission" class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="mission_title">Misyonumuz</h2>
+            </div>
+            <div class="mission-content">
+                <p data-i18n="mission_desc">Zirve Harita Mühendislik olarak misyonumuz; harita mühendisliği alanında teknik doğruluğu, güvenilirliği ve şeffaflığı esas alarak, müşterilerimize mevzuata uygun, hızlı ve sürdürülebilir çözümler sunmaktır. İmar uygulamaları, arazi yönetimi, inşaat öncesi zemin analizleri ve mühendislik hizmetlerinde, doğru veriye dayalı kararların alınmasına katkı sağlamak ve bölge halkına kaliteli hizmet sunmak temel önceliğimizdir. Didim ve çevresinde, harita mühendisliği alanında güvenilir bir çözüm ortağı olmak için çalışıyoruz.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="vision">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="vision_title">Vizyonumuz</h2>
+            </div>
+            <div class="vision-content">
+                <p data-i18n="vision_desc">Zirve Harita Mühendislik olarak vizyonumuz; harita mühendisliği alanında gelişen teknolojileri yakından takip ederek, sunduğumuz hizmetlerin kalitesini sürekli artırmak ve sektörde örnek gösterilen, öncü bir mühendislik firması olmaktır. Amacımız; Didim ve çevresinde arazi geliştirme, imar uygulamaları ve mühendislik projelerinde güvenilir bir başvuru noktası haline gelmek, aynı zamanda kamu ve özel sektörün ihtiyaç duyduğu teknik çözümleri zamanında ve doğru şekilde sunarak bölgesel kalkınmaya katkı sağlamaktır.</p>
+            </div>
+        </section>
 
     <section id="team" class="team">
         <div class="container">
@@ -180,7 +211,6 @@
                         <h3>Caner ALTIN</h3>
                         <p class="position" data-i18n="team_member1_position">Harita Mühendisi</p>
                         <p class="university" data-i18n="team_member1_university">Kocaeli Üniversitesi / 2021</p>
-                        <p class="bio" data-i18n="team_member1_bio">Didim bölgesindeki projelerde uzmanlaşmış, teknik çözümler sunan ekip liderimiz. Harita Mühendisi olarak tüm haritacılık hizmetlerini profesyonel bir şekilde yönetmektedir.</p>
                     </div>
                 </div>
                 <div class="team-member">
@@ -189,7 +219,6 @@
                         <h3>Burcu Aktepe ALTIN</h3>
                         <p class="position" data-i18n="team_member2_position">Harita Mühendisi</p>
                         <p class="university" data-i18n="team_member2_university">Kocaeli Üniversitesi / 2022</p>
-                        <p class="bio" data-i18n="team_member2_bio">Müşteri ilişkileri ve proje yönetiminde süreçleri sorunsuz yöneten takım arkadaşımız. İdari işler ve müşteri iletişiminde uzmanlaşmış olup, tüm projelerin koordinasyonunu sağlamaktadır.</p>
                     </div>
                 </div>
             </div>
@@ -206,35 +235,27 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
                         <h3 data-i18n="contact_phone_title">Telefon</h3>
                         <p>+90 541 659 88 23</p>
                         <p data-i18n="contact_phone_desc">Hemen arayın, ücretsiz danışmanlık alın</p>
                     </div>
                     
                     <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <h3 data-i18n="contact_address_title">Adres</h3>
-                        <p data-i18n="contact_address_line1">Didim belediyesi karşısı Gözüm, Yeni mahalle, İnönü bulvarı, Gözüm apartmanı no:5</p>
+                        <p data-i18n="contact_address_line1">Yeni mah. İnönü bulvarı, Gözüm apartmanı no:5 (Didim Belediyesi Karşısı)</p>
                         <p data-i18n="contact_address_line2">09270 Didim/Aydın</p>
                     </div>
                     
                     <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
                         <h3 data-i18n="contact_hours_title">Çalışma Saatleri</h3>
                         <p data-i18n="contact_hours_weekdays">Pazartesi - Pazar: 08:00 - 18:30</p>
                     </div>
                     
                     <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                         <h3 data-i18n="contact_email_title">E-posta</h3>
                         <p><a href="mailto:zirveharitadidim@gmail.com">zirveharitadidim@gmail.com</a></p>
                         <p data-i18n="contact_email_desc">7/24 e-posta ile ulaşabilirsiniz</p>
@@ -242,50 +263,48 @@
                 </div>
                 
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.9764453986747!2d27.267252715201905!3d37.37772977983237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be872e8adbd0fd%3A0x71cacfb3ea0beb22!2sZirve%20Harita%20M%C3%BChendislik%20Didim!5e0!3m2!1str!2str!4v1625123456789!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.9764453986747!2d27.267252715201905!3d37.37772977983237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be872e8adbd0fd%3A0x71cacfb3ea0beb22!2sZirve%20Harita%20M%C3%BChendislik%20Didim!5e0!3m2!1str!2str!4v1625123456789!5m2!1str!2str" loading="lazy"></iframe>
                 </div>
             </div>
             
             <div class="cta-section">
                 <h3 data-i18n="cta_title">Projeniz için hemen başlayalım!</h3>
                 <p data-i18n="cta_description">Ücretsiz keşif ve danışmanlık için bugün arayın</p>
-                <a href="tel:+905416598823" class="btn primary large" data-i18n="cta_button">HEMEN ARA</a>
+                <a href="tel:+905416598823" class="btn" data-i18n="cta_button">HEMEN ARA</a>
             </div>
         </div>
     </section>
+</main>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <div class="footer-logo">
-                        <img src="images/logo-black.svg" alt="Zirve Harita Logo" class="footer-logo-img">
-                    </div>
-                    <h3 data-i18n="footer_slogan">Ölçümüz net, yerimiz Zirve.</h3>
-                    <div class="footer-contact">
-                        <h4 data-i18n="footer_contact">İletişim</h4>
-                        <p><i class="fas fa-phone"></i> +90 541 659 88 23</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Didim belediyesi karşısı Gözüm, Yeni mahalle, İnönü bulvarı, Gözüm apartmanı no:5, 09270 Didim/Aydın</p>
-                        <p><i class="fas fa-envelope"></i> <a href="mailto:zirveharitadidim@gmail.com">zirveharitadidim@gmail.com</a></p>
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/zirveharita" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/zirveharita" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/zirveharita" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="images/logo-black.svg" alt="Zirve Harita Logo" class="footer-logo-img">
+                <h3 data-i18n="footer_slogan">Ölçümüz net, yerimiz Zirve.</h3>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i><a href="tel:+905416598823">+90 541 659 88 23</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact_address_line1">Yeni mah. İnönü bulvarı, Gözüm apartmanı no:5 (Didim Belediyesi Karşısı), </span><span data-i18n="contact_address_line2">09270 Didim/Aydın</span></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:zirveharitadidim@gmail.com">zirveharitadidim@gmail.com</a></p>
                 </div>
-                <div class="footer-hours">
-                    <h4 data-i18n="footer_hours_title">Çalışma Saatleri</h4>
-                    <p data-i18n="footer_hours">Pazartesi - Pazar: 08:00 - 18:30</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/zirveharita" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/zirveharita" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/zirveharita" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p data-i18n="footer_copyright">© 2023 Zirve Harita. Tüm hakları saklıdır.</p>
+            <div class="footer-hours">
+                <h4 data-i18n="footer_hours_title">Çalışma Saatleri</h4>
+                <p data-i18n="footer_hours">Pazartesi - Pazar: 08:00 - 18:30</p>
             </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">© 2024 Zirve Harita. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</footer>
 
-    <script src="js/main.js?v=1.3"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
