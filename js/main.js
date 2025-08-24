@@ -1,5 +1,4 @@
 // Translations for the website
-import '../styles.css';
 const translations = {
     'tr': {
         'nav_home': 'Ana Sayfa',
@@ -61,8 +60,10 @@ const translations = {
         'team_title': 'Ekibimiz',
         'team_member1_position': 'Harita Mühendisi',
         'team_member1_university': 'Kocaeli Üniversitesi / 2021',
+        'team_member1_bio': 'Didim bölgesindeki projelerde uzmanlaşmış, teknik çözümler sunan ekip liderimiz. Harita Mühendisi olarak tüm haritacılık hizmetlerini profesyonel bir şekilde yönetmektedir.',
         'team_member2_position': 'Harita Mühendisi',
         'team_member2_university': 'Kocaeli Üniversitesi / 2022',
+        'team_member2_bio': 'Müşteri ilişkileri ve proje yönetiminde süreçleri sorunsuz yöneten takım arkadaşımız. İdari işler ve müşteri iletişiminde uzmanlaşmış olup, tüm projelerin koordinasyonunu sağlamaktadır.',
         'contact_title': 'İletişim',
         'contact_subtitle': 'Projeleriniz için bizimle iletişime geçin. Size en uygun çözümü birlikte bulalım.',
         'contact_phone_title': 'Telefon',
@@ -143,8 +144,10 @@ const translations = {
         'team_title': 'Our Team',
         'team_member1_position': 'Surveying Engineer',
         'team_member1_university': 'Kocaeli University / 2021',
+        'team_member1_bio': 'Our team leader specializes in projects in the Didim region, providing technical solutions. As a Surveying Engineer, he professionally manages all surveying services.',
         'team_member2_position': 'Surveying Engineer',
         'team_member2_university': 'Kocaeli University / 2022',
+        'team_member2_bio': 'Our teammate seamlessly manages client relations and project management processes. She specializes in administrative affairs and client communication, ensuring the coordination of all projects.',
         'contact_title': 'Contact',
         'contact_subtitle': "Let's find the most suitable solution together.",
         'contact_phone_title': 'Phone',

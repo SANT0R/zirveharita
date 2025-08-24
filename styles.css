@@ -10,7 +10,7 @@ html {
     --secondary-gradient-hover: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
     --text-dark: #333;
     --text-light: #666;
-    --background-light: #f0f2f5; /* YENİ, DAHA BELİRGİN ARKA PLAN RENGİ */
+    --background-light: #c7efff; /* YENİ, DAHA BELİRGİN ARKA PLAN RENGİ */
     --white-color: #fff; /* Kartlar gibi beyaz kalması gereken yerler için */
     --black-color: #000;
     --border-color: #ddd;
@@ -28,17 +28,11 @@ body {
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    
-    /* Test için bu satırı aktif edin */
-    background-color: skyblue; /* Gözden kaçması imkansız bir renk */
-
-    /* Testten sonra yukarıdaki skyblue satırını silip bu satırı tekrar aktif edebilirsiniz */
-    /* background-color: var(--background-light); */
-    
-    background-image: 
-        linear-gradient(rgba(200, 200, 200, 0.15) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(200, 200, 200, 0.15) 1px, transparent 1px);
-    background-size: 30px 30px;
+    /* Ana arka plan rengimiz */
+    background-color: var(--background-light);
+    /* Teknik ızgara deseni */
+    background-image: linear-gradient(rgba(170, 170, 170, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(170, 170, 170, 0.5) 1px, transparent 1px);
+    background-size: 25px 25px;
 }
 
 .container {
@@ -60,7 +54,7 @@ ul {
 hr {
     border: 0;
     height: 1px;
-    background-color: #e0e0e0;
+    background-color: #0c0c0c;
     margin: 60px 0;
 }
 
@@ -244,9 +238,8 @@ hr {
 .hero {
     /* Desenin opaklığı 0.07'den 0.1'e çıkarıldı */
     background: 
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h16v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h9v9h1v-9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm0-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0h1v5h94V0h1v5h-6v95H6V5zm93 1h-1v93H7V6h92v93z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), 
-        url('https://images.unsplash.com/photo-1566937169390-7be4c63b8a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+        url('images/hero1.jpg');
     background-size: auto, cover, cover;
     background-position: center, center, center;
     background-attachment: fixed;
@@ -309,7 +302,6 @@ hr {
     text-align: center;
     position: relative;
     overflow: hidden;
-    background-color: var(--white-color); /* Stats bölümünü daha açık renk yaptık */
 }
 
 .stats-grid {
@@ -355,10 +347,19 @@ hr {
     font-weight: 600;
 }
 
+.what-we-do-conclusion h2{
+    text-align: center;
+    font-weight: 500; /* Daha ince bir font ağırlığı */
+    font-size: 32px;   /* Yazı boyutunu büyüttük */
+    letter-spacing: 0.5px; /* Harfler arasına hafif boşluk ekledik */
+    margin-top: 50px;
+    color: #071624;    /* Koyu ve modern bir antrasit/gri tonu */
+    font-style: italic; /* Yazıyı italik yaptık */
+}
+
 /* What We Can Do For You */
 .what-we-do {
     padding: 80px 0;
-    background-color: var(--white-color);
 }
 
 .what-we-do .section-header p {
@@ -411,16 +412,11 @@ hr {
 /* Services Section */
 .services, .team, .mission {
     padding: 80px 0;
-    background-color: var(--white-color); /* Bölümleri ana arka plandan ayırmak için beyaz yapıldı */
     position: relative;
     overflow: hidden;
-    background-image: none; /* Bu bölümlerdeki eski deseni kaldırıyoruz */
 }
 
-.mission { /* Mission bölümünü diğerlerinden ayırmak için farklı bir arka plan */
-    background-color: var(--white-color); 
-    background-image: none; /* Bunda desen olmasın, kontrast yaratsın */
-}
+
 
 .section-header {
     text-align: center;
@@ -507,12 +503,8 @@ hr {
 /* About Us, Mission, Vision Sections */
 .about-us, .mission, .vision {
     padding: 80px 0;
-    background-color: var(--white-color);
 }
 
-.mission {
-    background-color: var(--background-light);
-}
 
 .about-us-content, .mission-content, .vision-content {
     max-width: 800px;
@@ -593,7 +585,7 @@ hr {
 .team-member {
     flex: 1 1 350px;
     max-width: 350px;
-    background-color: var(--white-color);
+    background-color: #78b0ff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 30px var(--shadow-light);
@@ -657,7 +649,6 @@ hr {
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background-color: var(--white-color);
 }
 
 .contact-content {
