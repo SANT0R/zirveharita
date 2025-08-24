@@ -12,34 +12,40 @@
 <body>
 <!-- Header Section -->
 <header class="header">
-<div class="container">
-<div class="header-content">
-<a href="#home" class="logo"><img src="images/logo-zh-white.svg" alt="Zirve Harita Logo"></a>
-<div class="header-right">
-<nav class="main-nav">
-<ul>
-<li><a href="#home" data-i18n="nav_home">Ana Sayfa</a></li>
-<li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
-<li><a href="#services" data-i18n="nav_services">Hizmetlerimiz</a></li>
-<li><a href="#team" data-i18n="nav_team">Ekibimiz</a></li>
-<li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
-</ul>
-</nav>
-<div class="language-switcher">
-<span class="lang-option active" data-lang="tr">TR</span>
-<span class="lang-option" data-lang="en">EN</span>
-</div>
-<div class="social-icons">
-<a href="https://www.facebook.com/profile.php?id=61578544054730" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-<a href="https://www.instagram.com/harita.zirve" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
-<a href="https://www.linkedin.com/company/harita.zirve" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="header-content">
+            <a href="#home" class="logo"><img src="images/logo-zh-white.svg" alt="Zirve Harita Logo"></a>
+            
+            <!-- MOBİL MENÜ İÇİN HAMBURGER İKONU -->
+            <button class="nav-toggle" aria-label="menüyü aç/kapat">
+                <span class="hamburger"></span>
+            </button>
+
+                 <div class="language-switcher">
+                    <span class="lang-option active" data-lang="tr">TR</span>
+                    <span class="lang-option" data-lang="en">EN</span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/zirveharita" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/zirveharita" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/zirveharita" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            <!-- Masaüstü ve Mobil Menü Kapsayıcısı -->
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home" data-i18n="nav_home">Ana Sayfa</a></li>
+                        <li><a href="#about" data-i18n="nav_about">Hakkımızda</a></li>
+                        <li><a href="#services" data-i18n="nav_services">Hizmetlerimiz</a></li>
+                        <li><a href="#team" data-i18n="nav_team">Ekibimiz</a></li>
+                        <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 </header>
-code
-Code
+
 <main>
     <section id="home" class="hero">
         <div class="container">
@@ -242,10 +248,10 @@ Code
                     </div>
                     
                     <div class="contact-card">
-                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <h3 data-i18n="contact_address_title">Adres</h3>
-                        <p data-i18n="contact_address_line1">Yeni mah. İnönü bulvarı, Gözüm apartmanı no:5 (Didim Belediyesi Karşısı)</p>
-                        <p data-i18n="contact_address_line2">09270 Didim/Aydın</p>
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3 data-i18n="contact_email_title">E-posta</h3>
+                        <p><a href="mailto:zirveharitadidim@gmail.com">zirveharitadidim@gmail.com</a></p>
+                        <p data-i18n="contact_email_desc">7/24 e-posta ile ulaşabilirsiniz</p>
                     </div>
                     
                     <div class="contact-card">
@@ -255,11 +261,12 @@ Code
                     </div>
                     
                     <div class="contact-card">
-                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                        <h3 data-i18n="contact_email_title">E-posta</h3>
-                        <p><a href="mailto:zirveharitadidim@gmail.com">zirveharitadidim@gmail.com</a></p>
-                        <p data-i18n="contact_email_desc">7/24 e-posta ile ulaşabilirsiniz</p>
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3 data-i18n="contact_address_title">Adres</h3>
+                        <p data-i18n="contact_address_line1">Yeni mah. İnönü bulvarı, Gözüm apartmanı no:5 (Didim Belediyesi Karşısı)</p>
+                        <p data-i18n="contact_address_line2">09270 Didim/Aydın</p>
                     </div>
+                    
                 </div>
                 
                 <div class="map-container">
@@ -305,6 +312,6 @@ Code
     </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script type="module" src="/js/main.js"></script>
 </body>
 </html>

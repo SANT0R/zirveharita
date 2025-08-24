@@ -1,4 +1,5 @@
 // Translations for the website
+import '../styles.css';
 const translations = {
     'tr': {
         'nav_home': 'Ana Sayfa',
@@ -277,4 +278,42 @@ document.addEventListener('DOMContentLoaded', function() {
     if(statsSection) {
         observer.observe(statsSection);
     }
+
+    // Hamburger Menu Functionality
+    const navToggle = document.querySelector('.nav-toggle');
+    const body = document.body;
+    const navLinks = document.querySelectorAll('.main-nav a');
+
+    navToggle.addEventListener('click', () => {
+        body.classList.toggle('nav-open');
+    });
+
+    // Mobil menüde bir linke tıklanınca menüyü kapat
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            body.classList.remove('nav-open');
+        });
+    });
+
+        // Active Nav Link on Scroll
+    const sections = document.querySelectorAll('section[id]');
+    const mainNavLinks = document.querySelectorAll('.main-nav a');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        mainNavLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === current) {
+                link.classList.add('active');
+            }
+        });
+    });
 });
